@@ -1,0 +1,16 @@
+C:\Users\yong.zou\Desktop\http\Gbi.Payment.Contract\Gbi.Payment.SDK\bin\Debug\Gbi.Payment.SDK.dll
+C:\Users\yong.zou\Desktop\http\Gbi.Payment.Contract\Gbi.Payment.SDK\bin\Debug\Gbi.Payment.SDK.pdb
+C:\Users\yong.zou\Desktop\http\Gbi.Payment.Contract\Gbi.Payment.SDK\obj\Debug\Gbi.Payment.SDK.dll
+C:\Users\yong.zou\Desktop\http\Gbi.Payment.Contract\Gbi.Payment.SDK\obj\Debug\Gbi.Payment.SDK.pdb
+C:\Users\yong.zou\Desktop\http\Gbi.Payment.Contract\Gbi.Payment.SDK\obj\Debug\Gbi.Payment.SDK.csprojResolveAssemblyReference.cache
+C:\Users\yong.zou\Desktop\http\Gbi.Payment.Contract\Gbi.Payment.SDK\bin\Debug\Gbi.Common.dll
+C:\Users\yong.zou\Desktop\http\Gbi.Payment.Contract\Gbi.Payment.SDK\bin\Debug\Gbi.Payment.Contract.dll
+C:\Users\yong.zou\Desktop\http\Gbi.Payment.Contract\Gbi.Payment.SDK\bin\Debug\Gbi.Payment.Contract.pdb
+C:\Users\yong.zou\Desktop\http\Gbi.Payment.Web\Gbi.Payment.SDK\bin\Debug\Gbi.Payment.SDK.dll
+C:\Users\yong.zou\Desktop\http\Gbi.Payment.Web\Gbi.Payment.SDK\bin\Debug\Gbi.Payment.SDK.pdb
+C:\Users\yong.zou\Desktop\http\Gbi.Payment.Web\Gbi.Payment.SDK\bin\Debug\Gbi.Common.dll
+C:\Users\yong.zou\Desktop\http\Gbi.Payment.Web\Gbi.Payment.SDK\bin\Debug\Gbi.Payment.Contract.dll
+C:\Users\yong.zou\Desktop\http\Gbi.Payment.Web\Gbi.Payment.SDK\bin\Debug\Gbi.Payment.Contract.pdb
+C:\Users\yong.zou\Desktop\http\Gbi.Payment.Web\Gbi.Payment.SDK\obj\Debug\Gbi.Payment.SDK.csprojResolveAssemblyReference.cache
+C:\Users\yong.zou\Desktop\http\Gbi.Payment.Web\Gbi.Payment.SDK\obj\Debug\Gbi.Payment.SDK.dll
+C:\Users\yong.zou\Desktop\http\Gbi.Payment.Web\Gbi.Payment.SDK\obj\Debug\Gbi.Payment.SDK.pdb

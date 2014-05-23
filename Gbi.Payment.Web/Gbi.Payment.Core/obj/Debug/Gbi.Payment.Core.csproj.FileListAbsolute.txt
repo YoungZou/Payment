@@ -1,0 +1,5 @@
+C:\Users\yong.zou\Desktop\http\Gbi.Payment.Web\Gbi.Payment.Core\bin\Debug\Gbi.Payment.Core.dll
+C:\Users\yong.zou\Desktop\http\Gbi.Payment.Web\Gbi.Payment.Core\bin\Debug\Gbi.Payment.Core.pdb
+C:\Users\yong.zou\Desktop\http\Gbi.Payment.Web\Gbi.Payment.Core\obj\Debug\Gbi.Payment.Core.csprojResolveAssemblyReference.cache
+C:\Users\yong.zou\Desktop\http\Gbi.Payment.Web\Gbi.Payment.Core\obj\Debug\Gbi.Payment.Core.dll
+C:\Users\yong.zou\Desktop\http\Gbi.Payment.Web\Gbi.Payment.Core\obj\Debug\Gbi.Payment.Core.pdb
