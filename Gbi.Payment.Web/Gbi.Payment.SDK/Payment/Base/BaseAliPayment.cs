@@ -44,7 +44,7 @@ namespace Gbi.Payment.SDK
         /// </summary>
         /// <param name="order">The order.</param>
         /// <returns>System.String.</returns>
-        public abstract string ExecuteTransaction(ITradingOrder order);
+        public abstract string CreateTransactionRequest(ITradingOrder order);
 
         /// <summary>
         /// Signs the request data.

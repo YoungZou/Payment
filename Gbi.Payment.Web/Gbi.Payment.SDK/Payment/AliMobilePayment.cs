@@ -60,7 +60,7 @@ namespace Gbi.Payment.SDK
         /// </summary>
         /// <param name="order">The order.</param>
         /// <returns>System.String.</returns>
-        public override string ExecuteTransaction(ITradingOrder order)
+        public override string CreateTransactionRequest(ITradingOrder order)
         {
             string token = this.GetAuthenticateToken(order);
 

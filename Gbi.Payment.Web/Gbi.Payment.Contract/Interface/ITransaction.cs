@@ -12,14 +12,14 @@ namespace Gbi.Payment.Contract
     /// Interface ITransaction
     /// </summary>
     [ServiceContract]
-    public interface ITransaction
+    public interface ITransaction 
     {
         /// <summary>
-        /// Executes the transaction.
+        /// Creates the transaction request.  
         /// </summary>
         /// <param name="order">The order.</param>
         /// <returns>System.String.</returns>
         [OperationContract]
-        string ExecuteTransaction(ITradingOrder order);
+        string CreateTransactionRequest(ITradingOrder order);
     }
 }

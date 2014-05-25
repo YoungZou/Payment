@@ -40,15 +40,15 @@ namespace Gbi.Payment.SDK
         }
 
         /// <summary>
-        /// Executes the transaction.
+        /// Create the transaction request.
         /// </summary>
         /// <param name="order">The order.</param>
         /// <returns>System.String.</returns>
-        public string ExecuteTransaction(ITradingOrder order)
+        public virtual string CreateTransactionRequest(ITradingOrder order)
         {
             if(Payment !=null)
             {
-                return Payment.ExecuteTransaction(order);
+                return Payment.CreateTransactionRequest(order);
             }
             return string.Empty;
         }
@@ -58,7 +58,7 @@ namespace Gbi.Payment.SDK
         /// </summary>
         /// <param name="order">The order.</param>
         /// <returns>System.String.</returns>
-        public string GetAuthenticateToken(ITradingOrder order)
+        public virtual string GetAuthenticateToken(ITradingOrder order)
         {
             if (Payment != null)
             {

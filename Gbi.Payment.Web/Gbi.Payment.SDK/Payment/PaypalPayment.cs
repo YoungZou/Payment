@@ -13,7 +13,7 @@ namespace Gbi.Payment.SDK
             : base(config)
         { }
 
-        public override string ExecuteTransaction(ITradingOrder order)
+        public override string CreateTransactionRequest(ITradingOrder order)
         {
             throw new NotImplementedException();
         }

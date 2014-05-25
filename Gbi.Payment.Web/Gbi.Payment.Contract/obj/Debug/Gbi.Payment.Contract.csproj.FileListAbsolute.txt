@@ -12,3 +12,9 @@ C:\Users\yong.zou\Desktop\http\Gbi.Payment.Web\Gbi.Payment.Contract\bin\Debug\Gb
 C:\Users\yong.zou\Desktop\http\Gbi.Payment.Web\Gbi.Payment.Contract\obj\Debug\Gbi.Payment.Contract.dll
 C:\Users\yong.zou\Desktop\http\Gbi.Payment.Web\Gbi.Payment.Contract\obj\Debug\Gbi.Payment.Contract.pdb
 C:\Users\yong.zou\Desktop\http\Gbi.Payment.Web\Gbi.Payment.Contract\obj\Debug\Gbi.Payment.Contract.csprojResolveAssemblyReference.cache
+H:\GitHub\Gbi.Payment.Web\Gbi.Payment.Contract\bin\Debug\Gbi.Payment.Contract.dll
+H:\GitHub\Gbi.Payment.Web\Gbi.Payment.Contract\bin\Debug\Gbi.Payment.Contract.pdb
+H:\GitHub\Gbi.Payment.Web\Gbi.Payment.Contract\bin\Debug\Gbi.Common.dll
+H:\GitHub\Gbi.Payment.Web\Gbi.Payment.Contract\bin\Debug\Gbi.Service.Configuration.dll
+H:\GitHub\Gbi.Payment.Web\Gbi.Payment.Contract\obj\Debug\Gbi.Payment.Contract.dll
+H:\GitHub\Gbi.Payment.Web\Gbi.Payment.Contract\obj\Debug\Gbi.Payment.Contract.pdb
