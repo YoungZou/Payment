@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Configurations>
+  <Object Name="SqlConnection" Value="Data Source=61.152.104.141;Initial Catalog=PaymentService;Persist Security Info=True;user id=rem;password=gb123!" Type="System.String"/>
+  <Object Name="notify_url" Value ="" Type="System.String"/>
+  <Object Name="call_back_url" Value="" Type="System.String"/>
+  <Object Name="merchant_url" Value="" Type="System.String"/>
+  <Object Name="seller_account_name" Value="collection@jibo.cn" Type="System.String"/>
+  <!--合作身份者ID，以2088开头由16位纯数字组成的字符串-->
+  <Object Name="partner" Value="2088311638942982" Type="System.String"/>
+  <!-- MD5 private Key -->
+  <Object Name="key" Value="5cq7qj9wkntdx6g70vuno0l9vw5j6e10" Type="System.String"/>
+</Configurations>

@@ -16,7 +16,7 @@ namespace Gbi.Payment.SDK
         /// The payment
         /// </summary>
         BaseAliPayment Payment = null;
-
+  
         /// <summary>
         /// Initializes a new instance of the <see cref="PaymentClient" /> class.
         /// </summary>
@@ -44,7 +44,7 @@ namespace Gbi.Payment.SDK
         /// </summary>
         /// <param name="order">The order.</param>
         /// <returns>System.String.</returns>
-        public virtual string CreateTransactionRequest(ITradingOrder order)
+        public string CreateTransactionRequest(ITradingOrder order)
         {
             if(Payment !=null)
             {
@@ -58,7 +58,7 @@ namespace Gbi.Payment.SDK
         /// </summary>
         /// <param name="order">The order.</param>
         /// <returns>System.String.</returns>
-        public virtual string GetAuthenticateToken(ITradingOrder order)
+        public string GetAuthenticateToken(ITradingOrder order)
         {
             if (Payment != null)
             {

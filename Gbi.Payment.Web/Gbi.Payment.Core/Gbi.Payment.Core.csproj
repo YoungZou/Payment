@@ -34,6 +34,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Extention\Gbi.Common.dll</HintPath>
     </Reference>
+    <Reference Include="Gbi.Service.Common">
+      <HintPath>..\Extention\Gbi.Service.Common.dll</HintPath>
+    </Reference>
     <Reference Include="Gbi.Service.Configuration">
       <HintPath>..\Extention\Gbi.Service.Configuration.dll</HintPath>
     </Reference>
@@ -46,15 +49,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataAccessController\TradingOrderAccessController.cs" />
+    <Compile Include="Framework\Framework.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\NotificationService.cs" />
+    <Compile Include="ServiceCore\PaymentServiceCore.cs" />
     <Compile Include="Services\PaymentService.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Configurations\" />
-    <Folder Include="DataAccessController\" />
-    <Folder Include="ServiceCore\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\Gbi.Payment.Contract\Gbi.Payment.Contract.csproj">
       <Project>{4f568a0a-cf3a-4ca9-8d82-74fbda55b3b7}</Project>
@@ -64,6 +65,9 @@
       <Project>{dbff09d1-0c82-4426-b0c9-e40d8a9b0399}</Project>
       <Name>Gbi.Payment.SDK</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Configurations\AppConfig.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

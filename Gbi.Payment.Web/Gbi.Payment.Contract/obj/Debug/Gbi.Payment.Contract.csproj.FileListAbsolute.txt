@@ -18,3 +18,10 @@ H:\GitHub\Gbi.Payment.Web\Gbi.Payment.Contract\bin\Debug\Gbi.Common.dll
 H:\GitHub\Gbi.Payment.Web\Gbi.Payment.Contract\bin\Debug\Gbi.Service.Configuration.dll
 H:\GitHub\Gbi.Payment.Web\Gbi.Payment.Contract\obj\Debug\Gbi.Payment.Contract.dll
 H:\GitHub\Gbi.Payment.Web\Gbi.Payment.Contract\obj\Debug\Gbi.Payment.Contract.pdb
+D:\Gbi.Payment.Web\Gbi.Payment.Web\Gbi.Payment.Contract\bin\Debug\Gbi.Payment.Contract.dll
+D:\Gbi.Payment.Web\Gbi.Payment.Web\Gbi.Payment.Contract\bin\Debug\Gbi.Payment.Contract.pdb
+D:\Gbi.Payment.Web\Gbi.Payment.Web\Gbi.Payment.Contract\bin\Debug\Gbi.Common.dll
+D:\Gbi.Payment.Web\Gbi.Payment.Web\Gbi.Payment.Contract\bin\Debug\Gbi.Service.Configuration.dll
+D:\Gbi.Payment.Web\Gbi.Payment.Web\Gbi.Payment.Contract\obj\Debug\Gbi.Payment.Contract.csprojResolveAssemblyReference.cache
+D:\Gbi.Payment.Web\Gbi.Payment.Web\Gbi.Payment.Contract\obj\Debug\Gbi.Payment.Contract.dll
+D:\Gbi.Payment.Web\Gbi.Payment.Web\Gbi.Payment.Contract\obj\Debug\Gbi.Payment.Contract.pdb

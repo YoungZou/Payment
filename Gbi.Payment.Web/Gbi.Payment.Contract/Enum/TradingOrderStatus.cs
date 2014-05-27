@@ -5,31 +5,37 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
-
 namespace Gbi.Payment.Contract
 {
     /// <summary>
-    /// Enum TransactionType
+    /// Enum TradingOrderStatus
     /// </summary>
     [DataContract]
-    public enum TransactionType
+    public enum TradingOrderStatus
     {
         /// <summary>
-        /// The ali web payment
+        /// The pending
         /// </summary>
         [EnumMember]
-        AliWebPayment,
+        Pending = 0,
 
         /// <summary>
-        /// The ali mobile payment
+        /// The failed
         /// </summary>
         [EnumMember]
-        AliMobilePayment,
+        Failed = 1,
 
         /// <summary>
-        /// The paypal payment
+        /// The finished
         /// </summary>
         [EnumMember]
-        PaypalPayment
+        Finished = 2,
+
+        /// <summary>
+        /// The successed
+        /// this status only occured when has the advanced realthime pay function
+        /// </summary>
+        [EnumMember]
+        Successed = 3    
     }
 }

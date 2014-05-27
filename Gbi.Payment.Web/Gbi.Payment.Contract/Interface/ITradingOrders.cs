@@ -38,26 +38,6 @@ namespace Gbi.Payment.Contract
         }
 
         /// <summary>
-        /// Gets or sets the type of the logistics.
-        /// </summary>
-        /// <value>The type of the logistics.</value>
-        string LogisticsType
-        {
-            get;
-            set;
-        }
-
-        /// <summary>
-        /// Gets or sets the logistics fee.
-        /// </summary>
-        /// <value>The logistics fee.</value>
-        decimal LogisticsFee
-        {
-            get;
-            set;
-        }
-
-        /// <summary>
         /// Gets or sets the promotion description.
         /// </summary>
         /// <value>The promotion description.</value>
@@ -75,17 +55,7 @@ namespace Gbi.Payment.Contract
         {
             get;
             set;
-        }
-
-        /// <summary>
-        /// Gets or sets the type of the payment.
-        /// </summary>
-        /// <value>The type of the payment.</value>
-        PaymentType PaymentType
-        {
-            get;
-            set;
-        }
+        }  
 
         /// <summary>
         /// Gets or sets the items.
@@ -102,6 +72,36 @@ namespace Gbi.Payment.Contract
         /// </summary>
         /// <value>The receiver.</value>
         ReceiverInfo Receiver
+        {
+            get;
+            set;
+        }
+
+        /// <summary>
+        /// Gets or sets the payment information.
+        /// </summary>
+        /// <value>The payment information.</value>
+        PaymentInfo PaymentInfo
+        {
+            get;
+            set;
+        }
+
+        /// <summary>
+        /// Gets or sets the logistics information.
+        /// </summary>
+        /// <value>The logistics information.</value>
+        LogisticsInfo LogisticsInfo
+        {
+            get;
+            set;
+        }
+
+        /// <summary>
+        /// Gets or sets the status.
+        /// </summary>
+        /// <value>The status.</value>
+        TradingOrderStatus Status
         {
             get;
             set;

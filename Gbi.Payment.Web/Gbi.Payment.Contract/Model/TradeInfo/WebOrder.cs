@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace Gbi.Payment.Contract
 {
     [DataContract]
-    public class WebOrder : TradingOrders
+    public class WebOrder : TradingOrder
     {
     }
 }

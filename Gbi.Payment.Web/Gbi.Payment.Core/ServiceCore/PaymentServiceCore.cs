@@ -1,5 +1,4 @@
 ﻿using Gbi.Payment.Contract;
-using Gbi.Payment.SDK;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,16 +8,10 @@ using System.Threading.Tasks;
 namespace Gbi.Payment.Core
 {
     /// <summary>
-    /// Class PaymentService.
+    /// Class PaymentServiceCore.
     /// </summary>
-    public class PaymentService
+    public class PaymentServiceCore
     {
-        /// <summary>
-        /// Initializes a new instance of the <see cref="PaymentService"/> class.
-        /// </summary>
-        public PaymentService()
-        { }
-
         /// <summary>
         /// Creates the trading order.
         /// </summary>
@@ -27,9 +20,12 @@ namespace Gbi.Payment.Core
         {
             try
             {
-                var serviceCore = new PaymentServiceCore();
-                serviceCore.CreateTradingOrder(order);
+                using (var controller = new TradingOrderAccessController())
+                {
+                    controller.CreateTradingOrder(order);
+                }
             }
+
             catch (Exception ex)
             {
                 throw ex;
@@ -37,17 +33,21 @@ namespace Gbi.Payment.Core
         }
 
         /// <summary>
-        /// Updates the state of the trading order.
+        /// Updates the trading order state by key.
         /// </summary>
-        /// <param name="order">The order.</param>
+        /// <param name="key">The key.</param>
+        /// <param name="status">The status.</param>
         /// <returns><c>true</c> if XXXX, <c>false</c> otherwise.</returns>
-        public bool UpdateTradingOrderState(Guid key, string status)
+        public bool UpdateTradingOrderStateByKey(Guid key, string status)
         {
             try
             {
-                var serviceCore = new PaymentServiceCore();
-                return serviceCore.UpdateTradingOrderStateByKey(key, status);
+                using (var controller = new TradingOrderAccessController())
+                {
+                    return controller.UpdateTradingOrderStateByKey(key, status);
+                }
             }
+
             catch (Exception ex)
             {
                 throw ex;

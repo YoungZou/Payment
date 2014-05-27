@@ -31,4 +31,28 @@ namespace Gbi.Payment.Contract
         [EnumMember]
         ElectronicCardVoucher = 47
     }
+
+    /// <summary>
+    /// Enum PayUnit
+    /// </summary>
+    [DataContract]
+    public enum PayCurrency
+    {
+        USD,
+
+        RMB
+    }
+
+    /// <summary>
+    /// Enum PaymentMethod
+    /// </summary>
+    [DataContract]
+    public enum PaymentMethod
+    {
+        [EnumMember]
+        creditPay,
+
+        [EnumMember]
+        directPay
+    }
 }

@@ -3,11 +3,6 @@ C:\Users\yong.zou\Desktop\http\Gbi.Payment.Web\Gbi.Payment.Core\bin\Debug\Gbi.Pa
 C:\Users\yong.zou\Desktop\http\Gbi.Payment.Web\Gbi.Payment.Core\obj\Debug\Gbi.Payment.Core.csprojResolveAssemblyReference.cache
 C:\Users\yong.zou\Desktop\http\Gbi.Payment.Web\Gbi.Payment.Core\obj\Debug\Gbi.Payment.Core.dll
 C:\Users\yong.zou\Desktop\http\Gbi.Payment.Web\Gbi.Payment.Core\obj\Debug\Gbi.Payment.Core.pdb
-D:\Gbi.Payment.Web\Gbi.Payment.Web\Gbi.Payment.Core\bin\Debug\Gbi.Payment.Core.dll
-D:\Gbi.Payment.Web\Gbi.Payment.Web\Gbi.Payment.Core\bin\Debug\Gbi.Payment.Core.pdb
-D:\Gbi.Payment.Web\Gbi.Payment.Web\Gbi.Payment.Core\obj\Debug\Gbi.Payment.Core.csprojResolveAssemblyReference.cache
-D:\Gbi.Payment.Web\Gbi.Payment.Web\Gbi.Payment.Core\obj\Debug\Gbi.Payment.Core.dll
-D:\Gbi.Payment.Web\Gbi.Payment.Web\Gbi.Payment.Core\obj\Debug\Gbi.Payment.Core.pdb
 H:\GitHub\Gbi.Payment.Web\Gbi.Payment.Core\bin\Debug\Gbi.Payment.Core.dll
 H:\GitHub\Gbi.Payment.Web\Gbi.Payment.Core\bin\Debug\Gbi.Payment.Core.pdb
 H:\GitHub\Gbi.Payment.Web\Gbi.Payment.Core\bin\Debug\Gbi.Common.dll
@@ -19,3 +14,15 @@ H:\GitHub\Gbi.Payment.Web\Gbi.Payment.Core\bin\Debug\Gbi.Payment.SDK.pdb
 H:\GitHub\Gbi.Payment.Web\Gbi.Payment.Core\obj\Debug\Gbi.Payment.Core.csprojResolveAssemblyReference.cache
 H:\GitHub\Gbi.Payment.Web\Gbi.Payment.Core\obj\Debug\Gbi.Payment.Core.dll
 H:\GitHub\Gbi.Payment.Web\Gbi.Payment.Core\obj\Debug\Gbi.Payment.Core.pdb
+D:\Gbi.Payment.Web\Gbi.Payment.Web\Gbi.Payment.Core\bin\Debug\Gbi.Payment.Core.dll
+D:\Gbi.Payment.Web\Gbi.Payment.Web\Gbi.Payment.Core\bin\Debug\Gbi.Payment.Core.pdb
+D:\Gbi.Payment.Web\Gbi.Payment.Web\Gbi.Payment.Core\bin\Debug\Gbi.Common.dll
+D:\Gbi.Payment.Web\Gbi.Payment.Web\Gbi.Payment.Core\bin\Debug\Gbi.Payment.Contract.dll
+D:\Gbi.Payment.Web\Gbi.Payment.Web\Gbi.Payment.Core\bin\Debug\Gbi.Payment.SDK.dll
+D:\Gbi.Payment.Web\Gbi.Payment.Web\Gbi.Payment.Core\bin\Debug\Gbi.Service.Common.dll
+D:\Gbi.Payment.Web\Gbi.Payment.Web\Gbi.Payment.Core\bin\Debug\Gbi.Service.Configuration.dll
+D:\Gbi.Payment.Web\Gbi.Payment.Web\Gbi.Payment.Core\bin\Debug\Gbi.Payment.Contract.pdb
+D:\Gbi.Payment.Web\Gbi.Payment.Web\Gbi.Payment.Core\bin\Debug\Gbi.Payment.SDK.pdb
+D:\Gbi.Payment.Web\Gbi.Payment.Web\Gbi.Payment.Core\obj\Debug\Gbi.Payment.Core.csprojResolveAssemblyReference.cache
+D:\Gbi.Payment.Web\Gbi.Payment.Web\Gbi.Payment.Core\obj\Debug\Gbi.Payment.Core.dll
+D:\Gbi.Payment.Web\Gbi.Payment.Web\Gbi.Payment.Core\obj\Debug\Gbi.Payment.Core.pdb

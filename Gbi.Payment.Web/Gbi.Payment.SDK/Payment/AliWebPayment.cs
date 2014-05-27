@@ -31,7 +31,7 @@ namespace Gbi.Payment.SDK
 
             request.Add(AliServiceConfig.partner, this.TransactionInfo.Partner);
             request.Add(AliServiceConfig.service, AliServiceConfig.AliWebExecuteTransactionService);
-            request.Add(AliServiceConfig.PaymentType, ((int)order.PaymentType).ToString());
+            request.Add(AliServiceConfig.PaymentType, ((int)order.PaymentInfo.PaymentType).ToString());
             request.Add(AliServiceConfig.notify_url, this.TransactionInfo.NotifyUrl);
             request.Add(AliServiceConfig.return_url, this.TransactionInfo.CallBackUrl);
             request.Add(AliServiceConfig.seller_email, this.TransactionInfo.SellerAccountName);

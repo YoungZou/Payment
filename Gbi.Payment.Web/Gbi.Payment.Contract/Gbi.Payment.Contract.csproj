@@ -49,6 +49,8 @@
   <ItemGroup>
     <Compile Include="Config\AliServiceConfig.cs" />
     <Compile Include="Config\TransactionInfo.cs" />
+    <Compile Include="Enum\LogisticsType.cs" />
+    <Compile Include="Enum\TradingOrderStatus.cs" />
     <Compile Include="Enum\TransactionType.cs" />
     <Compile Include="Enum\PaymentType.cs" />
     <Compile Include="Interface\IAlipayInfo.cs" />
@@ -58,14 +60,16 @@
     <Compile Include="Interface\IToken.cs" />
     <Compile Include="Interface\ITradeItem.cs" />
     <Compile Include="Interface\ITradingOrders.cs" />
+    <Compile Include="Model\TradeInfo\LogisticsInfo.cs" />
     <Compile Include="Model\Payee\PayeeAlipayInfo.cs" />
     <Compile Include="Model\Payer\PayerAlipayInfo.cs" />
     <Compile Include="Model\Payer\ReceiverInfo.cs" />
+    <Compile Include="Model\TradeInfo\PaymentInfo.cs" />
     <Compile Include="Model\ProductItem\ProductItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Model\TradeInfo\MobileOrder.cs" />
     <Compile Include="Model\TradeInfo\TradeItem.cs" />
-    <Compile Include="Model\TradeInfo\TradingOrders.cs" />
+    <Compile Include="Model\TradeInfo\TradingOrder.cs" />
     <Compile Include="Model\TradeInfo\WebOrder.cs" />
   </ItemGroup>
   <ItemGroup />

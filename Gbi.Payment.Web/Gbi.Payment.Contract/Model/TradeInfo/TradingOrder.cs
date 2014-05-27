@@ -12,8 +12,29 @@ namespace Gbi.Payment.Contract
     /// Class TradingOrders.
     /// </summary>
     [DataContract]
-    public class TradingOrders : BaseObject, ITradingOrder
+    public class TradingOrder : BaseObject, ITradingOrder
     {
+        /// <summary>
+        /// Initializes a new instance of the <see cref="TradingOrder"/> class.
+        /// </summary>
+        public TradingOrder()
+        {
+            this.PaymentInfo = new PaymentInfo();
+            this.LogisticsInfo = new LogisticsInfo();
+        }
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="TradingOrder"/> class.
+        /// </summary>
+        /// <param name="item">The item.</param>
+        /// <param name="receiver">The receiver.</param>
+        public TradingOrder(List<ITradeItem> item, ReceiverInfo receiver)
+            : this()
+        {
+            this.Items = item;
+            this.Receiver = receiver;
+        }
+
         /// <summary>
         /// Gets or sets the subject.
         /// order subject
@@ -38,22 +59,11 @@ namespace Gbi.Payment.Contract
         }
 
         /// <summary>
-        /// Gets or sets the type of the logistics.
+        /// Gets or sets the client ip.
         /// </summary>
-        /// <value>The type of the logistics.</value>
+        /// <value>The client ip.</value>
         [DataMember]
-        public string LogisticsType
-        {
-            get;
-            set;
-        }
-
-        /// <summary>
-        /// Gets or sets the logistics fee.
-        /// </summary>
-        /// <value>The logistics fee.</value>
-        [DataMember]
-        public decimal LogisticsFee
+        public string ClientIp
         {
             get;
             set;
@@ -92,24 +102,34 @@ namespace Gbi.Payment.Contract
             set;
         }
 
-
         /// <summary>
-        /// Gets or sets the client ip.
+        /// Gets or sets the payment information.
         /// </summary>
-        /// <value>The client ip.</value>
+        /// <value>The payment information.</value>
         [DataMember]
-        public string ClientIp
+        public PaymentInfo PaymentInfo
         {
             get;
             set;
         }
 
         /// <summary>
-        /// Gets or sets the type of the payment.
+        /// Gets or sets the logistics information.
         /// </summary>
-        /// <value>The type of the payment.</value>
+        /// <value>The logistics information.</value>
         [DataMember]
-        public PaymentType PaymentType
+        public LogisticsInfo LogisticsInfo
+        {
+            get;
+            set;
+        }
+
+        /// <summary>
+        /// Gets or sets the status.
+        /// </summary>
+        /// <value>The status.</value>
+        [DataMember]
+        public TradingOrderStatus Status
         {
             get;
             set;

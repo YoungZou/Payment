@@ -165,7 +165,25 @@ namespace Gbi.Payment.Contract
         public TransactionInfo(string partner, string key, string sellerAccountName, string notifyUrl, string callbackUrl, string MerchantUrl)
             : this(partner, key, sellerAccountName, notifyUrl, callbackUrl)
         {
-            this.CallBackUrl = MerchantUrl;
+            this.MerchantUrl = MerchantUrl;
+        }
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="TransactionInfo"/> class.
+        /// </summary>
+        /// <param name="partner">The partner.</param>
+        /// <param name="key">The key.</param>
+        /// <param name="sellerAccountName">Name of the seller account.</param>
+        /// <param name="notifyUrl">The notify URL.</param>
+        /// <param name="callbackUrl">The callback URL.</param>
+        /// <param name="MerchantUrl">The merchant URL.</param>
+        /// <param name="transactionType">Type of the transaction.</param>
+        /// <param name="serviceName">Name of the service.</param>
+        public TransactionInfo(string partner, string key, string sellerAccountName, string notifyUrl, string callbackUrl, string MerchantUrl,TransactionType transactionType, string serviceName)
+            : this(partner, key, sellerAccountName, notifyUrl, callbackUrl, MerchantUrl)
+        {
+            this.Type = transactionType;
+            this.ServiceName = serviceName;
         }
     }
 }

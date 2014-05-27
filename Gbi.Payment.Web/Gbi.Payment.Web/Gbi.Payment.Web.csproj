@@ -39,6 +39,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Gbi.Service.Common, Version=1.0.0.30453, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Extention\Gbi.Service.Common.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -140,6 +144,20 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="PaymentService.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Gbi.Payment.Contract\Gbi.Payment.Contract.csproj">
+      <Project>{4f568a0a-cf3a-4ca9-8d82-74fbda55b3b7}</Project>
+      <Name>Gbi.Payment.Contract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Gbi.Payment.Core\Gbi.Payment.Core.csproj">
+      <Project>{db49683c-e1d0-4863-91d9-feda8489b5b2}</Project>
+      <Name>Gbi.Payment.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Gbi.Payment.SDK\Gbi.Payment.SDK.csproj">
+      <Project>{dbff09d1-0c82-4426-b0c9-e40d8a9b0399}</Project>
+      <Name>Gbi.Payment.SDK</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
