@@ -27,6 +27,9 @@ namespace Gbi.Payment.SDK
         /// <returns>System.String.</returns>
         public override string GetAuthenticateToken(ITradingOrder order)
         {
+            order.CheckNullObject("order");
+            this.TransactionInfo.CheckNullObject("TransactionInfo");
+
             var request = GenerateBasicRequestParameters();
 
             request.Add(AliServiceConfig.partner, this.TransactionInfo.Partner);
@@ -52,7 +55,7 @@ namespace Gbi.Payment.SDK
                 order.TotalFee
                 ));
 
-            return GetAuthenticateToken(SignRequestData(request));
+            return GetAuthenticateToken(GetPreSignedDictionary(request));
         }
 
         /// <summary>
@@ -62,6 +65,9 @@ namespace Gbi.Payment.SDK
         /// <returns>System.String.</returns>
         public override string CreateTransactionRequest(ITradingOrder order)
         {
+            order.CheckNullObject("order");
+            this.TransactionInfo.CheckNullObject("TransactionInfo");
+
             string token = this.GetAuthenticateToken(order);
 
             var request = GenerateBasicRequestParameters();
@@ -73,7 +79,7 @@ namespace Gbi.Payment.SDK
             request.Add(AliServiceConfig.version, AliServiceConfig.Version);
             request.Add(AliServiceConfig.req_data, string.Format(AliServiceConfig.RequestTransactionData, token));
 
-            return CreateTransactionDataRequest(SignRequestData(request));
+            return CreateTransactionDataRequest(GetPreSignedDictionary(request));
         }
     }
 }

@@ -17,6 +17,16 @@ namespace Gbi.Payment.Contract
     public interface ITradingOrder : IBaseObject
     {
         /// <summary>
+        /// Gets or sets the ali trade number.
+        /// </summary>
+        /// <value>The ali trade number.</value>
+       string AliTradeNumber
+        {
+            get;
+            set;
+        }
+
+        /// <summary>
         /// Gets or sets the subject.
         /// order subject
         /// </summary>

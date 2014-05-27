@@ -78,7 +78,6 @@ namespace Gbi.Payment.Core
         /// <summary>
         /// The merchant URL
         /// </summary>
-        public static readonly string MerchantUrl = ConfigurationUtil.Instance.GetValueByKey<string>(merchantUrl);
-    
+        public static readonly string MerchantUrl = ConfigurationUtil.Instance.GetValueByKey<string>(merchantUrl); 
     }
 }

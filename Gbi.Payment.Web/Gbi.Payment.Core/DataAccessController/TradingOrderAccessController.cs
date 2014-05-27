@@ -141,7 +141,7 @@ namespace Gbi.Payment.Core
         /// <param name="key">The key.</param>
         /// <param name="status">The status.</param>
         /// <returns><c>true</c> if XXXX, <c>false</c> otherwise.</returns>
-        public bool UpdateTradingOrderStateByKey(Guid key, string status)
+        public bool UpdateTradingOrderStateByKey(Guid key, TradingOrderStatus status)
         {
             const string spName = "sp_UpdateTradingOrderStateByKey";
             key.CheckNullObject("key");
@@ -150,7 +150,7 @@ namespace Gbi.Payment.Core
             {
                 List<SqlParameter> parameters = new List<SqlParameter>();
                 parameters.Add(GenerateSqlSpParameter(column_Key, key));
-                parameters.Add(GenerateSqlSpParameter(column_Status, status));
+                parameters.Add(GenerateSqlSpParameter(column_Status, (int)status));
 
                 return databaseOperator.ExecuteNonQuery(spName, parameters).DBToBoolean();
             }

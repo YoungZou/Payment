@@ -41,7 +41,7 @@ namespace Gbi.Payment.Core
         /// </summary>
         /// <param name="order">The order.</param>
         /// <returns><c>true</c> if XXXX, <c>false</c> otherwise.</returns>
-        public bool UpdateTradingOrderState(Guid key, string status)
+        public bool UpdateTradingOrderState(Guid key, TradingOrderStatus status)
         {
             try
             {

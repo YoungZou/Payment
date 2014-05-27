@@ -32,10 +32,10 @@ namespace Gbi.Payment.Contract
         Finished = 2,
 
         /// <summary>
-        /// The successed
-        /// this status only occured when has the advanced realthime pay function
+        /// The Succeed
+        /// this status only occurred when has the advanced realthime pay function
         /// </summary>
         [EnumMember]
-        Successed = 3    
+        Succeed = 3    
     }
 }

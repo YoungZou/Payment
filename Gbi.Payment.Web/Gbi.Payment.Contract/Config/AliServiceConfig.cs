@@ -143,6 +143,11 @@ namespace Gbi.Payment.Contract
         public const string AliWebExecuteTransactionService = "create_direct_pay_by_user";
 
         /// <summary>
+        /// The ali verify URL
+        /// </summary>
+        public const string AliVerifyUrl = "https://mapi.alipay.com/gateway.do?service=notify_verify&";
+
+        /// <summary>
         /// The key
         /// </summary>
         public const string key = "key";

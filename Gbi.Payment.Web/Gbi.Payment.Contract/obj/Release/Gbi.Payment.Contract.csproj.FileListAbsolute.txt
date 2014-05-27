@@ -1,0 +1,6 @@
+D:\Gbi.Payment.Web\Gbi.Payment.Web\Gbi.Payment.Contract\bin\Release\Gbi.Payment.Contract.dll
+D:\Gbi.Payment.Web\Gbi.Payment.Web\Gbi.Payment.Contract\bin\Release\Gbi.Payment.Contract.pdb
+D:\Gbi.Payment.Web\Gbi.Payment.Web\Gbi.Payment.Contract\bin\Release\Gbi.Common.dll
+D:\Gbi.Payment.Web\Gbi.Payment.Web\Gbi.Payment.Contract\bin\Release\Gbi.Service.Configuration.dll
+D:\Gbi.Payment.Web\Gbi.Payment.Web\Gbi.Payment.Contract\obj\Release\Gbi.Payment.Contract.dll
+D:\Gbi.Payment.Web\Gbi.Payment.Web\Gbi.Payment.Contract\obj\Release\Gbi.Payment.Contract.pdb

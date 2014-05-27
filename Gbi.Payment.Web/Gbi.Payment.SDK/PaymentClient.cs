@@ -66,5 +66,19 @@ namespace Gbi.Payment.SDK
             }
             return string.Empty;
         }
+
+        /// <summary>
+        /// Gets the signed string.
+        /// </summary>
+        /// <param name="dictionary">The dictionary.</param>
+        /// <returns>System.String.</returns>
+        public string GetSignedString(Dictionary<string, string> dictionary)
+        {
+            if (Payment != null)
+            {
+                return Payment.GetSignedString(dictionary);
+            }
+            return string.Empty;
+        }
     }
 }

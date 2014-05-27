@@ -1,0 +1,8 @@
+D:\Gbi.Payment.Web\Gbi.Payment.Web\Gbi.Payment.SDK\bin\Release\Gbi.Payment.SDK.dll
+D:\Gbi.Payment.Web\Gbi.Payment.Web\Gbi.Payment.SDK\bin\Release\Gbi.Payment.SDK.pdb
+D:\Gbi.Payment.Web\Gbi.Payment.Web\Gbi.Payment.SDK\bin\Release\Gbi.Common.dll
+D:\Gbi.Payment.Web\Gbi.Payment.Web\Gbi.Payment.SDK\bin\Release\Gbi.Payment.Contract.dll
+D:\Gbi.Payment.Web\Gbi.Payment.Web\Gbi.Payment.SDK\bin\Release\Gbi.Payment.Contract.pdb
+D:\Gbi.Payment.Web\Gbi.Payment.Web\Gbi.Payment.SDK\obj\Release\Gbi.Payment.SDK.csprojResolveAssemblyReference.cache
+D:\Gbi.Payment.Web\Gbi.Payment.Web\Gbi.Payment.SDK\obj\Release\Gbi.Payment.SDK.dll
+D:\Gbi.Payment.Web\Gbi.Payment.Web\Gbi.Payment.SDK\obj\Release\Gbi.Payment.SDK.pdb

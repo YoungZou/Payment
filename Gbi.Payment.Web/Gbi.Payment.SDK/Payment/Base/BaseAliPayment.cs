@@ -47,11 +47,29 @@ namespace Gbi.Payment.SDK
         public abstract string CreateTransactionRequest(ITradingOrder order);
 
         /// <summary>
-        /// Signs the request data.
+        /// Gets the signed string.
         /// </summary>
-        /// <param name="order">The order.</param>
+        /// <param name="dictionary">The dictionary.</param>
+        /// <returns>System.String.</returns>
+        public string GetSignedString(Dictionary<string, string> dictionary)
+        {
+            if (dictionary != null)
+            {
+                var preSignedDictionary = this.GetPreSignedDictionary(new SortedDictionary<string, string>(dictionary));
+
+                string preSignedStr = preSignedDictionary.ToKeyValueString();
+
+                return MD5Sign(preSignedStr, this.TransactionInfo.Key);
+            }
+            return string.Empty;
+        }
+
+        /// <summary>
+        /// Gets the preference signed dictionary.
+        /// </summary>
+        /// <param name="toBeSignedData">The automatic be signed data.</param>
         /// <returns>Dictionary{System.StringSystem.String}.</returns>
-        protected Dictionary<string, string> SignRequestData(SortedDictionary<string, string> toBeSignedData)
+        protected Dictionary<string, string> GetPreSignedDictionary(SortedDictionary<string, string> toBeSignedData)
         {
             var result = new Dictionary<string, string>();
             result = FilterDictionary(toBeSignedData);
@@ -148,7 +166,7 @@ namespace Gbi.Payment.SDK
 
             try
             {
-                string[] response = Post(requestData, gateway, charSet).Split('&');
+                string[] response = GetResponseData(requestData, gateway, charSet).Split('&');
 
                 if (response != null && response.Length > 0)
                 {
@@ -218,7 +236,7 @@ namespace Gbi.Payment.SDK
         /// <param name="charSet">The character set.</param>
         /// <returns>System.String.</returns>
         /// <exception cref="System.Exception"></exception>
-        private static string Post(Dictionary<string, string> requestData, string gateway = null, Encoding charSet = null)
+        private static string GetResponseData(Dictionary<string, string> requestData, string gateway = null, Encoding charSet = null)
         {
             if (gateway == null)
             {

@@ -48,6 +48,7 @@
     <Compile Include="Payment\Base\BaseAliPayment.cs" />
     <Compile Include="Payment\PaypalPayment.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebExtension.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Gbi.Payment.Contract\Gbi.Payment.Contract.csproj">

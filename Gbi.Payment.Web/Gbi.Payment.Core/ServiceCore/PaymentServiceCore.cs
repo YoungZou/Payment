@@ -38,7 +38,7 @@ namespace Gbi.Payment.Core
         /// <param name="key">The key.</param>
         /// <param name="status">The status.</param>
         /// <returns><c>true</c> if XXXX, <c>false</c> otherwise.</returns>
-        public bool UpdateTradingOrderStateByKey(Guid key, string status)
+        public bool UpdateTradingOrderStateByKey(Guid key, TradingOrderStatus status)
         {
             try
             {
